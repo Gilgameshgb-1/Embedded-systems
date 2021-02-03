@@ -1,0 +1,22 @@
+#include "mbed.h"
+
+#define dp23 P0_0 
+
+DigitalOut pin14 = p14;
+BusOut diode(p23, p24, p25, p26, p27, p5, p6, p28);
+DigitalIn taster1 = p9;
+
+int main() {
+    pin14 = 0;
+   int brojac = 0;
+    while(1) {
+        diode = brojac;
+        if(taster1) {
+            brojac--;
+        }else {
+            brojac++;
+        }
+        wait(1);
+        
+    }
+}
