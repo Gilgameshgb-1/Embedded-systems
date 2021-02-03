@@ -1,0 +1,3 @@
+ne da unutar kompajlera da incijalizira dp23 kao pin na lpc1114fn228 vjerovatno jer je etf verzija malo drukcija
+
+takodjer posto je u pitanju anoda moguce je samo zamijeniti redoslijed pinova? da bi radilo pravilno

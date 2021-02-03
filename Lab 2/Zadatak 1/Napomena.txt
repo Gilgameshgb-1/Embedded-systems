@@ -1,0 +1,1 @@
+Ne razumijem zasto, ali ne mogu inicijalizirati u BusOut(LED1...LED8) tj. ne da mi da kompajliram ako ima LED5 pa nadalje, pa bin fajl nije najtacniji
