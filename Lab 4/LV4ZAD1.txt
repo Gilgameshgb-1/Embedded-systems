@@ -1,0 +1,12 @@
+#include "mbed.h"
+
+AnalogIn pot(p15);
+PwmOut LED(p21);
+
+int main() {
+    while(1) {
+        LED.period_ms(10); // radi i bez ovog
+        LED.write(pot.read());
+        wait_ms(10);
+    }
+}
